@@ -4,7 +4,7 @@
 
 Os objetivos do projeto são:
 * Construir um back-end usando ORM com o pacote sequelize;
-* Criar e associar tabelas usando models do sequelize
+* Criar e associar tabelas MySQL usando models do sequelize
 * Construir endpoints para consumir os models criados
 
 # Instruções para executar o projeto
