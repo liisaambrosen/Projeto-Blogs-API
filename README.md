@@ -9,7 +9,8 @@ Os objetivos do projeto são:
 
 # Instruções para executar o projeto
 1. Clone o repositório;
-2. Digite os seguintes comandos no terminal, nesta ordem:
+2. No arquivo `.env`, altere as variáveis `MYSQL_USER` e `MYSQL_PASSWORD` para seu usuário e senha de acesso ao MySQL, respectivamente;
+3. Digite os seguintes comandos no terminal, nesta ordem:
   * `npm install`
   * `npx sequelize-cli db:create && npx sequelize-cli db:migrate`
   * `npx sequelize-cli db:seed:all`
